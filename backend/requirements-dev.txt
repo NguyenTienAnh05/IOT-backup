@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=8
+httpx>=0.27           # cho fastapi.testclient
+pytest-timeout>=2.3   # test WebSocket không được treo vô hạn
